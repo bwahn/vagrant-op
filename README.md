@@ -1,8 +1,10 @@
 # Vagrant + OpenPlatform 
 
+## download vagrant-op
+
 $ cd 
 
-$ git clone https://github.com/bwahn/vagrant-op.git\
+$ git clone https://github.com/bwahn/vagrant-op.git
 
 $ cd vagrant-op
 
@@ -30,7 +32,7 @@ $ vagrant ssh opdb
 
 $ vagrant destroy
 
-# Destroy each VM
+# Destroy a VM
 
 $ vagrant destroy op1
 
