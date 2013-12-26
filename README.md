@@ -21,10 +21,18 @@ $ wget http://files.vagrantup.com/precise64.box
 $ cd ..
 
 $ vagrant box add openplatform-base ./templates/precise64.box
+or 
+$ ./01-box-add.sh
 
-## box up
+## All box up
 
 $ vagrant up
+
+or 
+
+$ ./02-box-up.sh
+
+## SSH login
 
 $ vagrant ssh op1
 
