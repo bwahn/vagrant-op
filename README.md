@@ -1,15 +1,20 @@
 # Vagrant + OpenPlatform 
 
 $ cd 
+
 $ git clone https://github.com/bwahn/vagrant-op.git\
+
 $ cd vagrant-op
 
 $ mkdir templates
+
 $ cd templates
+
 $ wget http://files.vagrantup.com/precise64.box
 
 
 $ cd ..
+
 $ vagrant box add openplatform-base ./templates/precise64.box
 
 $ vagrant up
