@@ -37,20 +37,29 @@ $ ./02-box-up.sh
 $ ls -la
 
 rwxr-xr-x  11 user  staff   374 12 26 23:39 .
+
 drwxr-xr-x  14 user  staff   476 12 24 19:28 ..
+
 drwxr-xr-x   3 user  staff   102 12 24 19:35 .vagrant
 
 $ cd .vagrant
-$ ll
-total 0
-drwxr-xr-x  5 user  staff  170 12 25 01:09 machines
-$
-cd machines
 
 $ ll
+
 total 0
+
+drwxr-xr-x  5 user  staff  170 12 25 01:09 machines
+
+$ cd machines
+
+$ ll
+
+total 0
+
 drwxr-xr-x  3 user  staff  102 12 24 19:35 op1
+
 drwxr-xr-x  3 user  staff  102 12 24 19:35 op2
+
 drwxr-xr-x  3 user  staff  102 12 25 01:09 opdb
 
 ## SSH login
