@@ -1,6 +1,6 @@
 # Vagrant + OpenPlatform 
 
-## download vagrant-op
+## git clone vagrant-op
 
 $ cd 
 
@@ -8,16 +8,21 @@ $ git clone https://github.com/bwahn/vagrant-op.git
 
 $ cd vagrant-op
 
+## download box image
+
 $ mkdir templates
 
 $ cd templates
 
 $ wget http://files.vagrantup.com/precise64.box
 
+## box add
 
 $ cd ..
 
 $ vagrant box add openplatform-base ./templates/precise64.box
+
+## box up
 
 $ vagrant up
 
@@ -28,11 +33,11 @@ $ vagrant ssh op2
 $ vagrant ssh opdb
 
 
-# Destroy All VM
+## Destroy All VM
 
 $ vagrant destroy
 
-# Destroy a VM
+## Destroy a VM
 
 $ vagrant destroy op1
 
