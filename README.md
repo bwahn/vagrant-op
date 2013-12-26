@@ -25,10 +25,17 @@ $ vagrant ssh op2
 
 $ vagrant ssh opdb
 
+
+# Destroy All VM
+
 $ vagrant destroy
-or
+
+# Destroy each VM
+
 $ vagrant destroy op1
+
 $ vagrant destroy op2
+
 $ vagrant destroy opdb
 
 
