@@ -1,0 +1,4 @@
+127.0.0.1       localhost
+192.168.100.10    op1.local   op1 
+192.168.100.20    op2.local   op2 
+192.168.100.30    opdb.local  opdb 
