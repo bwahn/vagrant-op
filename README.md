@@ -1,5 +1,8 @@
 # Vagrant + OpenPlatform 
 
+// http://downloads.vagrantup.com/tags/v1.3.5 
+// download latest vagrant
+
 ## git clone vagrant-op
 
 $ cd 
